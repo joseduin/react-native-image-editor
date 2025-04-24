@@ -24,7 +24,7 @@ export interface PhotoEditorProps {
     colors?: string[]
     stickers?: string[]
     hiddenControls?: ('text' | 'clear' | 'draw' | 'save' | 'share' | 'sticker' | 'crop')[]
-    languages: Language
+    languages?: Language
     onDone?: (imagePath: string) => void
     onCancel?: (resultCode: number) => void
 }
