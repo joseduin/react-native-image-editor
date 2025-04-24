@@ -18,6 +18,7 @@ export default class App extends Component<Props> {
   _onPress = () => {
     ImageEditor.Edit({
       path: RNFS.DocumentDirectoryPath + '/photo1.jpg',
+      languages: undefined as any,
       stickers: [
         'sticker0',
         'sticker1',
